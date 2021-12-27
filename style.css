@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (min-width: 768px){
+  #result_toon{
+    width : 60% !important;
+  }
+  #retry_btn{
+
+  }
+  #result_top_common{
+    width : 30% !important;
+  }
+  #boxful_btn{
+    width : 60% !important;
+  }
+  #main{
+      width: 540px;
+  }
+}
+
+#main, #test, #result{
+  text-align : center;
+  height : 100%;
+}
+.mt-10{
+  margin-top : 10vh;
+}
+#A, #B{
+    color: black;
+    background-color: #ededed;
+    border-color : #ededed;
+    padding: 0.3em;
+    border-radius: 1em;
+    margin-top : 0.5em;
+    min-width: 190px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#retry_btn, #boxful_btn{
+  background-color : #ededed;
+  border-color : #ededed;
+  color : black;
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-top : 0.5em;
+  margin : 0 auto;
+  min-width: 190px;
+}
+#start_btn{
+  color: black;
+  background-color: white;
+  border-color : white;
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-top : 0.5em;
+  min-width: 190px;
+
+  font-family: 'ONE-Mobile-POP', sans-serif;
+
+  height : 50px !important;
+  border-radius : 30px !important;
+  border: 2px white solid;
+  /* 그림자 부분 */
+  box-shadow: 5px 6px 8px grey;
+}
+
+#title{
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-top : 0.5em;
+  min-width: 210px;
+  font-size : 2em;
+  color : #00c4b3;
+  font-family: 'ONE-Mobile-POP', sans-serif;
+}
+
+#main_share{
+  padding : 0;
+}
+
+#progress{
+  background : #00c4b3 !important;
+}
+
+#url_share, #kakao_share{
+    font-family: 'ONE-Mobile-POP', sans-serif;
+    border-radius : 30px !important;
+    width : 33%;
+    background : #00695e;
+    border-color : #00695e;
+    font-weight : bold;
+    color : white;
+
+}
+
+#url_share{
+
+
+  /* text-shadow : 2px 2px #00c4b3; */
+  /* -webkit-text-stroke: 1px #00c4b3; */
+
+}
+
+#prob_img{
+  max-width: 516px;
+  max-height: 290px;
+  border-color : #00c4b3;
+  border-style : solid;
+}
+#main_text{
+  text-align : center;
+
+}
+#share_btn{
+  padding: 0.3em;
+  border-radius: 1em;
+  margin : 0 auto;
+  min-width: 190px;
+}
+#title {
+}
+#page_number{
+  text-align : end;
+}
+#btn{
+  	background-color : "#000000";
+}
+#back{
+  text-align : left;
+}
+#test{
+  text-align : center;
+  display : none;
+  background : white;
+  height : 100%;
+}
+
+#result_img{
+  width : 70%;
+  margin: auto 0;
+}
+
+#result{
+  text-align : center;
+  display : none;
+}
+
+#result_top_common{
+  width : 80%;
+}
+#description{
+  margin-top : 1em;
+  margin-bottom : 1em;
+  font-weight : bold;
+}
+#description{
+  font-size : 1.5rem;
+}
+#explain, #advice{
+  font-size : 1rem;
+}
+#detail{
+  font-size : 1.5rem;
+}
+#detail{
+  font-family: 'ONE-Mobile-POP', sans-serif;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight : 700;
+  background: #00c6b2;
+  /* background: white; */
+
+  margin:0;
+  padding:0;
+  height :500px;
+}
+html{
+  height:400px !important;
+  overflow: auto;
+}
+
+#bg-img {
+
+}
+#main-section{
+
+}
+#myroom_adj{
+  font-family: 'ONE-Mobile-POP', sans-serif;
+
+  font-size : 16px;
+}
+#myroom{
+  font-family: 'ONE-Mobile-POP', sans-serif;
+
+  font-size : 32px;
+}
+
+#result_toon{
+  width : 100%;
+}

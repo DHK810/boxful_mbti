@@ -1,0 +1,65 @@
+#main{
+  text-align : center;
+}
+#title, #A, #B, #retry_btn, #start_btn{
+    color: white;
+    background-color: #dc3545;
+    padding: 0.3em;
+    border-radius: 1em;
+    margin-top : 0.5em;
+    min-width: 190px;
+}
+#prob_img{
+  max-width: 516px;
+  max-height: 290px;
+}
+#main_text{
+  text-align : center;
+}
+#share_btn{
+  padding: 0.3em;
+  border-radius: 1em;
+
+  min-width: 190px;
+}
+#title {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+#page_number{
+  text-align : end;
+}
+#btn{
+  	background-color : "#D24F53";
+}
+#back{
+  text-align : left;
+}
+#test{
+  text-align : center;
+  display : none;
+}
+
+#result_img{
+  width : 70%;
+  margin: auto 0;
+}
+
+#result{
+  text-align : center;
+  display : none;
+}
+#description{
+  margin-top : 1em;
+  margin-bottom : 1em;
+}
+#description, #explain, #detail{
+  font-size : 1rem;
+}
+body{
+  font-family: 'Poor Story', cursive;
+}
+
+#test{
+  background : white;
+}
